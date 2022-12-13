@@ -1,2 +1,0 @@
-# sales
-capitura led
