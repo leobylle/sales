@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    <title>GeradorLads</title>
+    <style>
+        body{
+            background: grey;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-right: 150px;
+            margin-left: 80px;
+
+        }
+        form{
+            align-items: center;
+            text-align: center;
+            border-style: solid;
+            color: beige;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+        }
+        h1{
+            color: beige;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+      
+        }
+        h2{
+            color: beige;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+
+        }
+       
+       </style>
+</head>
+<body>
+    <H1>	
+       
+Teste Gera LEAD SALESFORCE <br>
+    </H1>
+        
+         
+<h2> 
+    Preencha os dados abaixo, entraremos em contato o mais breve possível.<br><br>
+    </h2>
+
+
+
+
+
+  
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  NOTE: Please add the following <FORM> element to your page.             -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+    
+    <input type=hidden name="oid" value="00DIY000000BDq5">
+    <input type=hidden name="retURL" value="http://">
+    
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+    <!--  these lines if you wish to test in debug mode.                          -->
+    <!--  <input type="hidden" name="debug" value=1>                              -->
+    <!--  <input type="hidden" name="debugEmail" value="sleandrob@gmail.com">     -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <label for="first_name">Primeiro Nome</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+    
+    <label for="last_name">Sobrenome</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+    
+    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+    
+    <label for="phone">Telefone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+    
+    Product Interest:<select  id="00NIY000000djIn" name="00NIY000000djIn" title="Product Interest"><option value="">-- Nenhum --</option><option value="GC1000 series">GC1000 series</option>
+    <option value="GC5000 series">GC5000 series</option>
+    <option value="GC3000 series">GC3000 series</option>
+    </select><br>
+    
+    <label for="city">Cidade</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+    
+    <label for="description">Descrição</label><textarea name="description"></textarea><br>
+    
+    <input type="submit" name="submit">
+    
+    </form>
+    
+    
+</body>
+</html>
